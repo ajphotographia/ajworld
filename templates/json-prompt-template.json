@@ -1,0 +1,39 @@
+{
+  "project_name": "AI Image Prompt Template",
+  "image_type": "ultra_realistic_cinematic_portrait",
+  "aspect_ratio": "9:16",
+  "subject": {
+    "identity_reference": "Use the uploaded image as the strict facial identity reference.",
+    "identity_rules": [
+      "Preserve exact face shape",
+      "Preserve skin tone",
+      "Preserve hairstyle",
+      "Preserve facial hair if present",
+      "Preserve natural facial proportions",
+      "Do not beautify or redesign the face"
+    ],
+    "expression": "calm, confident, emotional",
+    "pose": "cinematic portrait pose"
+  },
+  "style": {
+    "realism": "ultra realistic",
+    "lighting": "cinematic soft lighting",
+    "mood": "dreamy and magical",
+    "detail_level": "high detail",
+    "skin_texture": "real human skin texture"
+  },
+  "environment": {
+    "background": "fantasy cinematic environment",
+    "atmosphere": "soft fog, glowing particles, dreamy depth"
+  },
+  "negative_prompt": [
+    "no face change",
+    "no identity change",
+    "no cartoon look",
+    "no extra fingers",
+    "no distorted hands",
+    "no bad anatomy",
+    "no over-smoothed skin",
+    "no unrealistic proportions"
+  ]
+}
